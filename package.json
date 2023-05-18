@@ -1,0 +1,17 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "Testemanoel",
+  "main": "index.js",
+  "scripts": {    
+    "cypress:run:mobile": "npx cypress run --config viewportwith=412,viewportwith=914",
+    "cypress:run": "npx cypress run"
+   
+  
+  },
+  "author": "bel",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.5.1"
+  }
+}
